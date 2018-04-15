@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+}
+
+#nav-bar{
+	background-color: #aaa;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+header {
+	padding: 40px 20px 20px 20px;
+}
+
+section {
+	height: 200px;
+}
+
+#bio {
+	background-color: #bbb;
+}
+
+#portfolio {
+	background-color: #ccc;
+}
+
+#contact {
+	background-color: #ddd;
+}
+
+footer {
+	background-color: #aaa;
+}
