@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  	box-sizing: border-box;
 }
 
 body {
@@ -8,7 +8,7 @@ body {
 	color: #404040;
 }
 
-#nav-bar{
+#nav-bar {
 	background-color: #404040;
 	position: fixed;
 	top: 0;
@@ -28,7 +28,7 @@ li {
 	padding: 0 8px 0 8px;
 }
 
-#nav-bar a {
+#nav-bar a, footer a {
 	color: #FFFFFF;
 }
 
@@ -126,13 +126,3 @@ footer {
 	padding: 5px 0 5px 0; 
 	background-color: #404040;
 }
-
-address {
-	margin: 0;
-}
-
-address a {
-	color: #FFFFFF;
-}
-
-address a:link, address a:visited, address a:active { text-decoration: none; }
