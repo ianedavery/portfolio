@@ -145,8 +145,11 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+	#logo {
+		margin: 70px auto 0 auto;
+	}
 	h1 {
-		padding: 100px 130px 50px 130px;
+		padding: 50px 130px 50px 130px;
 	}
 	header img {
 		margin: 65px 0 20px 0;
@@ -157,8 +160,11 @@ footer {
 }
 
 @media only screen and (min-width: 1024px) {
+	#logo {
+		margin: 100px auto 0 auto;
+	}
 	h1 {
-		padding: 100px 220px 50px 220px;
+		padding: 70px 220px 50px 220px;
 	}
 	header {
 		padding: 15px 100px 50px 100px;
