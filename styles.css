@@ -142,6 +142,7 @@ h3 {
 }
 
 footer {
+	position: relative;
 	height: 100px;
 	margin-top: 20px;
 	padding: 5px 0 5px 0; 
