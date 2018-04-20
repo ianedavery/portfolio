@@ -3,33 +3,40 @@
 }
 
 body {
+	position: relative;
 	text-align: center;
 	font-family: 'Lora', serif;
 	color: #404040;
 }
 
 #nav-bar {
-	background-color: #404040;
-	position: fixed;
-	top: 0;
-	right: 0;
-	left: 0;
-	padding: 5px 0 5px 0;
+	position: absolute;
+	background-color: #FFFFFF;
+	top: 30px;
+	/*right: 0;*/
+	right: 20px;
 }
 
-ul {
+/*ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
-}
+	display: inline;
+}*/
 
-li {
+/*li {
 	display: inline-block;
 	padding: 0 8px 0 8px;
-}
+}*/
 
 #nav-bar a, footer a {
-	color: #FFFFFF;
+	color: #404040;
+}
+
+#nav-bar a {
+	font-size: 1.3em;
+	padding: 0 5px 0 5px;
+	font-weight: 550;
 }
 
 header {
@@ -37,18 +44,23 @@ header {
 }
 
 #logo {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	/*display: inline-block;*/
 	height: 2em;
 	width: 2em;
-	border: solid 4px #404040;
-	margin: 60px auto 0 auto;
+	border: solid 3px #404040;
+	/*margin: 0 auto 0 auto;*/
 	font-size: 1.5em;
-	font-weight: 600;
+	font-weight: 500;
 	line-height: 1.75em;
+	z-index: 1;
 }
 
 h1 {
 	font-size: 2em;
-	padding: 30px 10px 35px 10px;
+	padding: 100px 10px 35px 10px;
 	margin: 0;
 	text-align: left;
 }
@@ -92,7 +104,7 @@ section p {
 .portfolio section {
 	padding: 0;
 	border: solid 1px #C0C0C0;
-	margin-top: 20px;
+	margin: 20px 0 40px 0;
 }
 
 .portfolio img {
@@ -139,17 +151,52 @@ h3 {
 }
 
 footer {
+	height: 100px;
 	margin-top: 20px;
 	padding: 5px 0 5px 0; 
 	background-color: #404040;
+	/*color: #FFFFFF;*/
+}
+
+footer div {
+	/*display: inline-block;
+	text-align: left;*/
+	margin: 20px 0 20px 0;
+}
+
+/*footer h4 {
+	margin-bottom: 0;
+}*/
+
+footer a {
+	text-decoration: none;
+}
+
+footer img {
+	padding: 0 15px 0 15px;
+}
+
+#github {
+	height: 50px;
+}
+
+#linkedin {
+	height: 40px;
+}
+
+#email {
+	height: 50px;
 }
 
 @media only screen and (min-width: 768px) {
-	#logo {
+	/*#logo {
 		margin: 70px auto 0 auto;
+	}*/
+	footer img {
+		padding: 0 30px 0 30px;
 	}
 	h1 {
-		padding: 50px 130px 50px 130px;
+		padding: 160px 130px 50px 130px;
 	}
 	header img {
 		margin: 65px 0 20px 0;
@@ -160,11 +207,17 @@ footer {
 }
 
 @media only screen and (min-width: 1024px) {
-	#logo {
+	/*#logo {
 		margin: 100px auto 0 auto;
+	}*/
+	#nav-bar {
+		right: 40px;
+	}
+	#logo {
+		left: 40px;
 	}
 	h1 {
-		padding: 70px 220px 50px 220px;
+		padding: 120px 200px 50px 200px;
 	}
 	header {
 		padding: 15px 100px 50px 100px;
