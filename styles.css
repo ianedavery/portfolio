@@ -13,30 +13,22 @@ body {
 	position: absolute;
 	background-color: #FFFFFF;
 	top: 30px;
-	/*right: 0;*/
 	right: 20px;
-}
-
-/*ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	display: inline;
-}*/
-
-/*li {
-	display: inline-block;
-	padding: 0 8px 0 8px;
-}*/
-
-#nav-bar a, footer a {
-	color: #404040;
 }
 
 #nav-bar a {
 	font-size: 1.3em;
 	padding: 0 5px 0 5px;
 	font-weight: 550;
+	color: #404040;
+}
+
+#nav-bar #work {
+	padding-right: 0;
+}
+
+#work::after {
+	content: ' |';
 }
 
 header {
@@ -47,11 +39,9 @@ header {
 	position: absolute;
 	top: 20px;
 	left: 20px;
-	/*display: inline-block;*/
 	height: 2em;
 	width: 2em;
 	border: solid 3px #404040;
-	/*margin: 0 auto 0 auto;*/
 	font-size: 1.5em;
 	font-weight: 500;
 	line-height: 1.75em;
@@ -155,21 +145,10 @@ footer {
 	margin-top: 20px;
 	padding: 5px 0 5px 0; 
 	background-color: #404040;
-	/*color: #FFFFFF;*/
 }
 
 footer div {
-	/*display: inline-block;
-	text-align: left;*/
 	margin: 20px 0 20px 0;
-}
-
-/*footer h4 {
-	margin-bottom: 0;
-}*/
-
-footer a {
-	text-decoration: none;
 }
 
 footer img {
@@ -189,14 +168,17 @@ footer img {
 }
 
 @media only screen and (min-width: 768px) {
-	/*#logo {
-		margin: 70px auto 0 auto;
-	}*/
+	#nav-bar a {
+		font-size: 1.6em;
+	}
+	#logo {
+		left: 20px;
+	}
 	footer img {
 		padding: 0 30px 0 30px;
 	}
 	h1 {
-		padding: 160px 130px 50px 130px;
+		padding: 120px 130px 50px 130px;
 	}
 	header img {
 		margin: 65px 0 20px 0;
@@ -207,9 +189,6 @@ footer img {
 }
 
 @media only screen and (min-width: 1024px) {
-	/*#logo {
-		margin: 100px auto 0 auto;
-	}*/
 	#nav-bar {
 		right: 40px;
 	}
@@ -228,10 +207,16 @@ footer img {
 	section {
 		padding: 0 180px 0 180px;
 	}
-	#nav-bar a, footer a {
-		font-size: 1.25em;
+	#nav-bar a {
+		font-size: 1.5em;
 	}
 	li {
 		padding: 0 30px 0 30px;
+	}
+}
+
+@media only screen and (min-width : 1224px) {
+	section {
+		padding: 0 200px 0 200px;
 	}
 }
