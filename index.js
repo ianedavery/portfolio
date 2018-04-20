@@ -1,4 +1,5 @@
 function handleScroll() {
+	//creates a scroll effect when linking to other elements on the page
 	$('a[href^="#"]').on('click', function(event) {
 	    let target = $(this.getAttribute('href'));
 	    if(target.length) {
