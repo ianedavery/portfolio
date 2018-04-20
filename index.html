@@ -11,16 +11,12 @@
 	<link rel='stylesheet' type='text/css' href='styles.css'>
 </head>
 <body>
+	<div id='logo'>IA</div>
 	<nav role='navigation' id='nav-bar'>
-		<ul>
-			<li><a href='mailto:ianedavery@gmail.com'>Email</a></li>
-			<li><a href='#portfolio'>Portfolio</a></li>
-			<li><a href='https://github.com/ianedavery'>Github</a></li>
-			<li><a href='https://www.linkedin.com/in/ianedavery'>LinkedIn</a></li>
-		</ul>
+		<a id='work' href='#portfolio'>Work</a>
+		<a href='#bio'>Bio</a>
 	</nav>
 	<header role='banner' id='banner'>
-		<div id='logo'>IA</div>
 		<h1>Hello, my name is</br>Ian Avery.</br>I'm a full stack developer living in Chandler, AZ.</h1>
 		<div id='border'></div>
 		<img src='./images/alt-profilepic.jpg' alt='hero'>
@@ -71,7 +67,17 @@
 		</section>
 	</main>
 	<footer role='contentinfo'>
-		<a href='#banner'>Back to Top</a>
+		<div>
+			<a href='mailto:ianedavery@gmail.com'>
+				<img id='email' src='./images/whiteemail.png' alt='email logo'>
+			</a>
+			<a href='https://github.com/ianedavery'>
+				<img id='github' src='./images/whitegithub.png' alt='github logo'>
+			</a>
+			<a href='https://www.linkedin.com/in/ianedavery'>
+				<img id='linkedin' src='./images/linkedin-logo-white.png' alt='linkedin logo'>
+			</a>
+		</div>
 	</footer>
 	<script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
 	<script type='text/javascript' src='index.js'></script>
