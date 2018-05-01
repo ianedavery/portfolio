@@ -19,7 +19,7 @@ body {
 
 #nav-bar a {
 	font-size: 1.3em;
-	padding: 0 5px 0 5px;
+	padding: 0;
 	font-weight: 550;
 	color: #404040;
 }
@@ -28,7 +28,7 @@ body {
 	padding-right: 0;
 }
 
-#work::after {
+#work:after, #bio_link:after {
 	content: ' |';
 }
 
